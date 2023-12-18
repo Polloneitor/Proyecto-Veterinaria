@@ -1,0 +1,386 @@
+especie,raza,edad,ayuno,peso[kg],enfermedad1,enfermedad2,enfermedad3,enfermedad4,tipo_de_muestra,recipiente_1,recipiente_2,recipiente_3,cantidad[ml]o[gr],temperatura[Cel],tiempo_conservacion[h],condicion especial
+gato,p_largo,3,si,5,nada,nada,nada,nada,hemograma,tubo_lila,micro_tubo_lila,nada,3,4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,4,si,"5,3",nada,nada,nada,nada,hemograma,tubo_lila,micro_tubo_lila,nada,"2,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,0,si,"1,5",nada,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,1,si,"3,4",nada,nada,nada,nada,hemograma,tubo_lila,micro_tubo_lila,nada,"2,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,3,si,6,nada,nada,nada,nada,hemograma,tubo_lila,micro_tubo_lila,nada,3,4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,7,si,"5,4",nada,nada,nada,nada,hemograma,tubo_lila,micro_tubo_lila,nada,3,4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,8,si,"3,4",nada,nada,nada,nada,hemograma,tubo_lila,micro_tubo_lila,nada,"2,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,9,si,5,nada,nada,nada,nada,hemograma,tubo_lila,micro_tubo_lila,nada,3,4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,4,si,5,nada,nada,nada,nada,hemograma,tubo_lila,micro_tubo_lila,nada,3,4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,3,si,"5,3",nada,nada,nada,nada,hemograma,tubo_lila,micro_tubo_lila,nada,"2,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,0,si,"2,5",nada,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,2,si,"3,6",nada,nada,nada,nada,hemograma,tubo_lila,micro_tubo_lila,nada,"2,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,2,si,7,nada,nada,nada,nada,hemograma,tubo_lila,micro_tubo_lila,nada,3,4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,6,si,"5,6",nada,nada,nada,nada,hemograma,tubo_lila,micro_tubo_lila,nada,3,4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,7,si,"3,2",nada,nada,nada,nada,hemograma,tubo_lila,micro_tubo_lila,nada,"2,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,6,si,"5,1",nada,nada,nada,nada,hemograma,tubo_lila,micro_tubo_lila,nada,3,4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,0,si,"2,4",nada,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,2,si,4,leucemia,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,3,si,"4,3",leucemia,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,4,si,"5,1",leucemia,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,5,si,"3,2",leucemia,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,6,si,"3,9",leucemia,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,7,si,"4,2",leucemia,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,8,si,"4,3",leucemia,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,2,si,4,leucemia,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,3,si,"4,3",leucemia,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,4,si,"5,1",leucemia,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,5,si,"3,2",leucemia,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,6,si,"3,9",leucemia,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,7,si,"4,2",leucemia,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,8,si,"4,3",leucemia,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,3,si,5,hemoparasitos,leucemia,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,4,si,5,hemoparasitos,leucemia,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,5,si,"4,1",hemoparasitos,leucemia,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,6,si,"3,9",hemoparasitos,leucemia,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,7,si,"3,2",hemoparasitos,leucemia,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,8,si,"6,3",hemoparasitos,leucemia,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,9,si,"4,2",hemoparasitos,leucemia,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,3,si,5,hemoparasitos,leucemia,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,4,si,5,hemoparasitos,leucemia,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,5,si,"4,3",hemoparasitos,leucemia,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,6,si,"5,1",hemoparasitos,leucemia,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,7,si,"3,2",hemoparasitos,leucemia,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,8,si,"3,9",hemoparasitos,leucemia,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,9,si,"4,2",hemoparasitos,leucemia,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,3,si,"5,3",anemia_hemolitica,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,12,si,"3,2",anemia_hemolitica,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,9,si,"5,3",anemia_hemolitica,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,6,si,3,anemia_hemolitica,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,8,si,"4,7",anemia_hemolitica,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,4,si,"5,2",anemia_hemolitica,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,9,si,"3,3",anemia_hemolitica,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,8,si,"5,7",anemia_hemolitica,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,4,si,"3,1",anemia_hemolitica,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,3,si,"4,5",anemia_hemolitica,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,4,si,"6,2",anemia_hemolitica,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,3,si,"3,1",sida,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,9,si,"5,9",sida,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,10,si,"6,5",sida,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,3,si,"5,3",sida,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,10,si,"3,9",sida,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,8,si,"3,3",sida,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,10,si,"4,1",sida,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,1,si,"6,1",sida,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,4,si,"4,9",sida,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,7,si,"4,3",sida,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,8,si,"3,3",sida,leucemia,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,6,si,"3,8",sida,leucemia,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,7,si,"5,3",sida,leucemia,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,9,si,"3,9",sida,leucemia,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,1,si,3,sida,leucemia,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,8,si,"5,1",sida,leucemia,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,3,si,"5,8",sida,leucemia,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,7,si,"3,4",sida,leucemia,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,7,si,"5,8",sida,leucemia,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,6,si,"4,6",sida,leucemia,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,4,si,"3,5",anemia,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,5,si,"5,8",anemia,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,5,si,6,anemia,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,5,si,"5,5",anemia,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,9,si,5,anemia,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,7,si,"6,1",anemia,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,9,si,"3,8",anemia,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,9,si,"5,8",anemia,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,1,si,"6,4",anemia,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_corto,3,si,"3,4",anemia,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,Se debe almacenar en un lugar oscuro
+gato,p_largo,2,si,"1,6",enfermedad_renal,nada,nada,nada,sdma,micro_tubo_rojo,nada,nada,"0,7",2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_largo,0,si,"2,9",enfermedad_renal,nada,nada,nada,sdma,micro_tubo_rojo,nada,nada,"0,7",2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_largo,0,si,"1,9",enfermedad_renal,nada,nada,nada,sdma,micro_tubo_rojo,nada,nada,"0,7",2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_largo,1,si,"1,5",enfermedad_renal,nada,nada,nada,sdma,micro_tubo_rojo,nada,nada,"0,7",2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_largo,2,si,"1,5",enfermedad_renal,nada,nada,nada,sdma,micro_tubo_rojo,nada,nada,"0,7",2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_largo,0,si,"2,9",enfermedad_renal,nada,nada,nada,sdma,micro_tubo_rojo,nada,nada,"0,7",2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_largo,1,si,"1,3",enfermedad_renal,nada,nada,nada,sdma,tubo_rojo,nada,nada,3,2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_largo,2,si,"5,7",enfermedad_renal,nada,nada,nada,sdma,tubo_rojo,nada,nada,3,2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_largo,3,si,"6,1",enfermedad_renal,nada,nada,nada,sdma,tubo_rojo,nada,nada,3,2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_largo,10,si,"5,4",enfermedad_renal,nada,nada,nada,sdma,tubo_rojo,nada,nada,3,2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_largo,4,si,"4,5",enfermedad_renal,nada,nada,nada,sdma,tubo_rojo,nada,nada,3,2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_largo,9,si,"4,1",enfermedad_renal,nada,nada,nada,sdma,tubo_rojo,nada,nada,3,2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_largo,7,si,3,enfermedad_renal,nada,nada,nada,sdma,tubo_rojo,nada,nada,3,2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_largo,10,si,"6,5",enfermedad_renal,nada,nada,nada,sdma,tubo_rojo,nada,nada,3,2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_corto,1,si,2,enfermedad_renal,nada,nada,nada,sdma,micro_tubo_rojo,nada,nada,"0,7",2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_corto,1,si,"2,2",enfermedad_renal,nada,nada,nada,sdma,micro_tubo_rojo,nada,nada,"0,7",2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_corto,0,si,2,enfermedad_renal,nada,nada,nada,sdma,micro_tubo_rojo,nada,nada,"0,7",2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_corto,2,si,"1,5",enfermedad_renal,nada,nada,nada,sdma,micro_tubo_rojo,nada,nada,"0,7",2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_corto,2,si,"2,8",enfermedad_renal,nada,nada,nada,sdma,micro_tubo_rojo,nada,nada,"0,7",2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_corto,0,si,3,enfermedad_renal,nada,nada,nada,sdma,micro_tubo_rojo,nada,nada,"0,7",2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_corto,1,si,3,enfermedad_renal,nada,nada,nada,sdma,tubo_rojo,nada,nada,3,2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_corto,7,si,"5,2",enfermedad_renal,nada,nada,nada,sdma,tubo_rojo,nada,nada,3,2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_corto,6,si,4,enfermedad_renal,nada,nada,nada,sdma,tubo_rojo,nada,nada,3,2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_corto,10,si,3,enfermedad_renal,nada,nada,nada,sdma,tubo_rojo,nada,nada,3,2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_corto,15,si,"3,8",enfermedad_renal,nada,nada,nada,sdma,tubo_rojo,nada,nada,3,2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_corto,12,si,"4,1",enfermedad_renal,nada,nada,nada,sdma,tubo_rojo,nada,nada,3,2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_corto,3,si,"6,2",enfermedad_renal,nada,nada,nada,sdma,tubo_rojo,nada,nada,3,2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_corto,3,si,"5,8",enfermedad_renal,nada,nada,nada,sdma,tubo_rojo,nada,nada,3,2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_largo,0,si,"2,7",nada,nada,nada,nada,sdma,micro_tubo_rojo,nada,nada,"0,7",2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_largo,0,si,1,nada,nada,nada,nada,sdma,micro_tubo_rojo,nada,nada,"0,7",2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_largo,1,si,"2,1",nada,nada,nada,nada,sdma,micro_tubo_rojo,nada,nada,"0,7",2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_largo,1,si,"1,7",nada,nada,nada,nada,sdma,micro_tubo_rojo,nada,nada,"0,7",2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_largo,0,si,"2,7",nada,nada,nada,nada,sdma,micro_tubo_rojo,nada,nada,"0,7",2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_largo,0,si,"1,8",nada,nada,nada,nada,sdma,micro_tubo_rojo,nada,nada,"0,7",2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_largo,1,si,"2,2",nada,nada,nada,nada,sdma,tubo_rojo,nada,nada,3,2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_largo,4,si,"5,5",nada,nada,nada,nada,sdma,tubo_rojo,nada,nada,3,2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_largo,15,si,"4,8",nada,nada,nada,nada,sdma,tubo_rojo,nada,nada,3,2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_largo,5,si,"5,2",nada,nada,nada,nada,sdma,tubo_rojo,nada,nada,3,2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_largo,15,si,"5,5",nada,nada,nada,nada,sdma,tubo_rojo,nada,nada,3,2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_largo,15,si,"6,2",nada,nada,nada,nada,sdma,tubo_rojo,nada,nada,3,2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_largo,5,si,"4,6",nada,nada,nada,nada,sdma,tubo_rojo,nada,nada,3,2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_largo,8,si,"3,8",nada,nada,nada,nada,sdma,tubo_rojo,nada,nada,3,2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_corto,2,si,"1,6",nada,nada,nada,nada,sdma,micro_tubo_rojo,nada,nada,"0,7",2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_corto,0,si,"2,2",nada,nada,nada,nada,sdma,micro_tubo_rojo,nada,nada,"0,7",2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_corto,1,si,"2,3",nada,nada,nada,nada,sdma,micro_tubo_rojo,nada,nada,"0,7",2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_corto,2,si,3,nada,nada,nada,nada,sdma,micro_tubo_rojo,nada,nada,"0,7",2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_corto,0,si,"1,3",nada,nada,nada,nada,sdma,micro_tubo_rojo,nada,nada,"0,7",2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_corto,1,si,"1,2",nada,nada,nada,nada,sdma,micro_tubo_rojo,nada,nada,"0,7",2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_corto,2,si,"1,9",nada,nada,nada,nada,sdma,tubo_rojo,nada,nada,3,2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_corto,4,si,3,nada,nada,nada,nada,sdma,tubo_rojo,nada,nada,3,2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_corto,2,si,"5,9",nada,nada,nada,nada,sdma,tubo_rojo,nada,nada,3,2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_corto,14,si,"6,5",nada,nada,nada,nada,sdma,tubo_rojo,nada,nada,3,2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_corto,13,si,"6,2",nada,nada,nada,nada,sdma,tubo_rojo,nada,nada,3,2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_corto,10,si,"6,4",nada,nada,nada,nada,sdma,tubo_rojo,nada,nada,3,2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_corto,6,si,"6,1",nada,nada,nada,nada,sdma,tubo_rojo,nada,nada,3,2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_corto,11,si,7,nada,nada,nada,nada,sdma,tubo_rojo,nada,nada,3,2-8,48,Se debe almacenar en un lugar oscuro
+gato,p_largo,7,no,"4,2",nada,nada,nada,nada,urianalisis,frasco_tapa_roja,jeringa,nada,13,4-6,12,"Se debe almacenar en un lugar oscuro, idealmente primera orina de la mañana"
+gato,p_largo,7,no,7,nada,nada,nada,nada,urianalisis,frasco_tapa_roja,jeringa,nada,13,4-6,12,"Se debe almacenar en un lugar oscuro, idealmente primera orina de la mañana"
+gato,p_largo,12,no,"4,4",nada,nada,nada,nada,urianalisis,frasco_tapa_roja,jeringa,nada,13,4-6,12,"Se debe almacenar en un lugar oscuro, idealmente primera orina de la mañana"
+gato,p_largo,11,no,"3,2",nada,nada,nada,nada,urianalisis,frasco_tapa_roja,jeringa,nada,13,4-6,12,"Se debe almacenar en un lugar oscuro, idealmente primera orina de la mañana"
+gato,p_largo,14,no,"5,9",nada,nada,nada,nada,urianalisis,frasco_tapa_roja,jeringa,nada,13,4-6,12,"Se debe almacenar en un lugar oscuro, idealmente primera orina de la mañana"
+gato,p_largo,13,no,"6,3",nada,nada,nada,nada,urianalisis,frasco_tapa_roja,jeringa,nada,13,4-6,12,"Se debe almacenar en un lugar oscuro, idealmente primera orina de la mañana"
+gato,p_largo,6,no,"6,1",nada,nada,nada,nada,urianalisis,frasco_tapa_roja,jeringa,nada,13,4-6,12,"Se debe almacenar en un lugar oscuro, idealmente primera orina de la mañana"
+gato,p_largo,11,no,"3,1",nada,nada,nada,nada,urianalisis,frasco_tapa_roja,jeringa,nada,13,4-6,12,"Se debe almacenar en un lugar oscuro, idealmente primera orina de la mañana"
+gato,p_corto,2,no,"3,9",nada,nada,nada,nada,urianalisis,frasco_tapa_roja,jeringa,nada,13,4-6,12,"Se debe almacenar en un lugar oscuro, idealmente primera orina de la mañana"
+gato,p_corto,9,no,"3,6",nada,nada,nada,nada,urianalisis,frasco_tapa_roja,jeringa,nada,13,4-6,12,"Se debe almacenar en un lugar oscuro, idealmente primera orina de la mañana"
+gato,p_corto,12,no,"6,9",nada,nada,nada,nada,urianalisis,frasco_tapa_roja,jeringa,nada,13,4-6,12,"Se debe almacenar en un lugar oscuro, idealmente primera orina de la mañana"
+gato,p_corto,7,no,"3,8",nada,nada,nada,nada,urianalisis,frasco_tapa_roja,jeringa,nada,13,4-6,12,"Se debe almacenar en un lugar oscuro, idealmente primera orina de la mañana"
+gato,p_corto,11,no,"5,3",nada,nada,nada,nada,urianalisis,frasco_tapa_roja,jeringa,nada,13,4-6,12,"Se debe almacenar en un lugar oscuro, idealmente primera orina de la mañana"
+gato,p_corto,12,no,"3,6",nada,nada,nada,nada,urianalisis,frasco_tapa_roja,jeringa,nada,13,4-6,12,"Se debe almacenar en un lugar oscuro, idealmente primera orina de la mañana"
+gato,p_corto,10,no,"6,3",nada,nada,nada,nada,urianalisis,frasco_tapa_roja,jeringa,nada,13,4-6,12,"Se debe almacenar en un lugar oscuro, idealmente primera orina de la mañana"
+gato,p_corto,13,no,"6,8",nada,nada,nada,nada,urianalisis,frasco_tapa_roja,jeringa,nada,13,4-6,12,"Se debe almacenar en un lugar oscuro, idealmente primera orina de la mañana"
+gato,p_largo,4,si,"2,1",nada,nada,nada,nada,perfil_bioquimico,tubo_rojo,tubo_amarillo,tubo_verde,3,4-6,24,"se debe almacenar en un lugar oscuro, si el frasco es verde la entrega debe ser inmediata"
+gato,p_largo,1,si,"5,1",nada,nada,nada,nada,perfil_bioquimico,tubo_rojo,tubo_amarillo,tubo_verde,3,4-6,24,"se debe almacenar en un lugar oscuro, si el frasco es verde la entrega debe ser inmediata"
+gato,p_largo,5,si,"4,3",nada,nada,nada,nada,perfil_bioquimico,tubo_rojo,tubo_amarillo,tubo_verde,3,4-6,24,"se debe almacenar en un lugar oscuro, si el frasco es verde la entrega debe ser inmediata"
+gato,p_largo,5,si,"6,7",nada,nada,nada,nada,perfil_bioquimico,tubo_rojo,tubo_amarillo,tubo_verde,3,4-6,24,"se debe almacenar en un lugar oscuro, si el frasco es verde la entrega debe ser inmediata"
+gato,p_largo,7,si,"2,1",nada,nada,nada,nada,perfil_bioquimico,tubo_rojo,tubo_amarillo,tubo_verde,3,4-6,24,"se debe almacenar en un lugar oscuro, si el frasco es verde la entrega debe ser inmediata"
+gato,p_corto,10,si,"4,5",nada,nada,nada,nada,perfil_bioquimico,tubo_rojo,tubo_amarillo,tubo_verde,3,4-6,24,"se debe almacenar en un lugar oscuro, si el frasco es verde la entrega debe ser inmediata"
+gato,p_corto,12,si,"2,3",nada,nada,nada,nada,perfil_bioquimico,tubo_rojo,tubo_amarillo,tubo_verde,3,4-6,24,"se debe almacenar en un lugar oscuro, si el frasco es verde la entrega debe ser inmediata"
+gato,p_corto,1,si,"3,9",nada,nada,nada,nada,perfil_bioquimico,tubo_rojo,tubo_amarillo,tubo_verde,3,4-6,24,"se debe almacenar en un lugar oscuro, si el frasco es verde la entrega debe ser inmediata"
+gato,p_corto,12,si,"2,5",nada,nada,nada,nada,perfil_bioquimico,tubo_rojo,tubo_amarillo,tubo_verde,3,4-6,24,"se debe almacenar en un lugar oscuro, si el frasco es verde la entrega debe ser inmediata"
+gato,p_corto,9,si,"4,5",nada,nada,nada,nada,perfil_bioquimico,tubo_rojo,tubo_amarillo,tubo_verde,3,4-6,24,"se debe almacenar en un lugar oscuro, si el frasco es verde la entrega debe ser inmediata"
+gato,p_largo,0,si,"0,2",sospecha_sida,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,7",4-6,12,frio y oscuridad
+gato,p_largo,1,si,"0,4",sospecha_sida,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,7",4-6,12,frio y oscuridad
+gato,p_largo,2,si,"0,2",sospecha_sida,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,7",4-6,12,frio y oscuridad
+gato,p_largo,2,si,"0,8",sospecha_sida,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,7",4-6,12,frio y oscuridad
+gato,p_largo,2,si,"1,3",sospecha_sida,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,7",4-6,12,frio y oscuridad
+gato,p_corto,1,si,"1,2",sospecha_sida,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,7",4-6,12,frio y oscuridad
+gato,p_corto,1,si,"5,1",sospecha_sida,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,7",4-6,12,frio y oscuridad
+gato,p_corto,1,si,"2,4",sospecha_sida,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,7",4-6,12,frio y oscuridad
+gato,p_corto,12,si,"2,3",sospecha_sida,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,7",4-6,12,frio y oscuridad
+gato,p_corto,5,si,"2,7",sospecha_sida,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,7",4-6,12,frio y oscuridad
+gato,p_corto,9,si,5,sospecha_sida,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,7",4-6,12,frio y oscuridad
+gato,p_corto,7,si,"3,6",sospecha_sida,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,7",4-6,12,frio y oscuridad
+gato,p_corto,3,si,"6,8",sospecha_sida,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,7",4-6,12,frio y oscuridad
+gato,p_corto,4,si,"3,4",sospecha_sida,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,7",4-6,12,frio y oscuridad
+gato,p_corto,10,si,"3,4",sospecha_sida,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,7",4-6,12,frio y oscuridad
+gato,p_largo,2,si,"0,1",sospecha_sida,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,7",4-6,12,frio y oscuridad
+gato,p_largo,1,si,2,sospecha_sida,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,7",4-6,12,frio y oscuridad
+gato,p_largo,2,si,"1,2",sospecha_sida,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,7",4-6,12,frio y oscuridad
+gato,p_largo,2,si,"0,9",sospecha_sida,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,7",4-6,12,frio y oscuridad
+gato,p_largo,1,si,"1,4",sospecha_sida,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,7",4-6,12,frio y oscuridad
+gato,p_largo,0,si,"0,1",sospecha_sida,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,7",4-6,12,frio y oscuridad
+gato,p_corto,0,si,"1,2",sospecha_leucemia,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,7",4-6,12,frio y oscuridad
+gato,p_corto,2,si,"1,1",sospecha_leucemia,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,5",4-6,12,frio y oscuridad
+gato,p_corto,0,si,"0,8",sospecha_leucemia,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,5",4-6,12,frio y oscuridad
+gato,p_corto,0,si,"1,5",sospecha_leucemia,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,5",4-6,12,frio y oscuridad
+gato,p_corto,2,si,"1,4",sospecha_leucemia,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,5",4-6,12,frio y oscuridad
+gato,p_corto,3,si,"6,4",sospecha_leucemia,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,5",4-6,12,frio y oscuridad
+gato,p_corto,9,si,"6,4",sospecha_leucemia,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,5",4-6,12,frio y oscuridad
+gato,p_corto,9,si,"5,9",sospecha_leucemia,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,5",4-6,12,frio y oscuridad
+gato,p_corto,6,si,3,sospecha_leucemia,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,5",4-6,12,frio y oscuridad
+gato,p_corto,3,si,"5,8",sospecha_leucemia,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,5",4-6,12,frio y oscuridad
+gato,p_corto,9,si,"6,9",sospecha_leucemia,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,5",4-6,12,frio y oscuridad
+gato,p_corto,6,si,"4,6",sospecha_leucemia,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,5",4-6,12,frio y oscuridad
+gato,p_largo,1,si,"1,8",sospecha_leucemia,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,5",4-6,12,frio y oscuridad
+gato,p_largo,0,si,"0,7",sospecha_leucemia,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,5",4-6,12,frio y oscuridad
+gato,p_largo,2,si,"0,7",sospecha_leucemia,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,5",4-6,12,frio y oscuridad
+gato,p_largo,2,si,"0,6",sospecha_leucemia,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,5",4-6,12,frio y oscuridad
+gato,p_largo,1,si,"0,8",sospecha_leucemia,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,5",4-6,12,frio y oscuridad
+gato,p_largo,2,si,"4,4",sospecha_leucemia,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,5",4-6,12,frio y oscuridad
+gato,p_largo,12,si,"2,7",sospecha_leucemia,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,5",4-6,12,frio y oscuridad
+gato,p_largo,13,si,"3,2",sospecha_leucemia,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,5",4-6,12,frio y oscuridad
+gato,p_largo,6,si,"3,3",sospecha_leucemia,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,5",4-6,12,frio y oscuridad
+gato,p_largo,5,si,2,sospecha_leucemia,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,5",4-6,12,frio y oscuridad
+gato,p_largo,15,si,"2,4",sospecha_leucemia,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,5",4-6,12,frio y oscuridad
+gato,p_largo,10,si,"5,1",sospecha_leucemia,nada,nada,nada,virus,micro_tubo_lila,nada,nada,"0,5",4-6,12,frio y oscuridad
+gato,p_corto,0,si,1,micoplasma,nada,nada,nada,hemoparasito_gato,micro_tubo_lila,nada,nada,3,4-6,24,exclusiva para PCR. En frio y oscuridad.
+gato,p_corto,2,si,"0,5",micoplasma,nada,nada,nada,hemoparasito_gato,micro_tubo_lila,nada,nada,3,4-6,24,exclusiva para PCR. En frio y oscuridad.
+gato,p_corto,2,si,"1,5",micoplasma,nada,nada,nada,hemoparasito_gato,micro_tubo_lila,nada,nada,3,4-6,24,exclusiva para PCR. En frio y oscuridad.
+gato,p_corto,14,si,"3,4",micoplasma,nada,nada,nada,hemoparasito_gato,micro_tubo_lila,nada,nada,3,4-6,24,exclusiva para PCR. En frio y oscuridad.
+gato,p_corto,14,si,"4,5",micoplasma,nada,nada,nada,hemoparasito_gato,micro_tubo_lila,nada,nada,3,4-6,24,exclusiva para PCR. En frio y oscuridad.
+gato,p_corto,12,si,"4,2",micoplasma,nada,nada,nada,hemoparasito_gato,micro_tubo_lila,nada,nada,3,4-6,24,exclusiva para PCR. En frio y oscuridad.
+gato,p_corto,4,si,"5,5",micoplasma,nada,nada,nada,hemoparasito_gato,micro_tubo_lila,nada,nada,3,4-6,24,exclusiva para PCR. En frio y oscuridad.
+gato,p_corto,10,si,"6,1",micoplasma,nada,nada,nada,hemoparasito_gato,micro_tubo_lila,nada,nada,3,4-6,24,exclusiva para PCR. En frio y oscuridad.
+gato,p_corto,3,si,"3,7",micoplasma,nada,nada,nada,hemoparasito_gato,micro_tubo_lila,nada,nada,3,4-6,24,exclusiva para PCR. En frio y oscuridad.
+gato,p_corto,11,si,"5,8",micoplasma,nada,nada,nada,hemoparasito_gato,micro_tubo_lila,nada,nada,3,4-6,24,exclusiva para PCR. En frio y oscuridad.
+gato,p_largo,2,si,"1,2",micoplasma,nada,nada,nada,hemoparasito_gato,micro_tubo_lila,nada,nada,3,4-6,24,exclusiva para PCR. En frio y oscuridad.
+gato,p_largo,2,si,"0,6",micoplasma,nada,nada,nada,hemoparasito_gato,micro_tubo_lila,nada,nada,3,4-6,24,exclusiva para PCR. En frio y oscuridad.
+gato,p_largo,0,si,"0,9",micoplasma,nada,nada,nada,hemoparasito_gato,micro_tubo_lila,nada,nada,3,4-6,24,exclusiva para PCR. En frio y oscuridad.
+gato,p_largo,1,si,1,micoplasma,nada,nada,nada,hemoparasito_gato,micro_tubo_lila,nada,nada,3,4-6,24,exclusiva para PCR. En frio y oscuridad.
+gato,p_largo,0,si,"1,6",micoplasma,nada,nada,nada,hemoparasito_gato,micro_tubo_lila,nada,nada,3,4-6,24,exclusiva para PCR. En frio y oscuridad.
+gato,p_largo,0,si,3,micoplasma,nada,nada,nada,hemoparasito_gato,micro_tubo_lila,nada,nada,3,4-6,24,exclusiva para PCR. En frio y oscuridad.
+gato,p_largo,15,si,"2,2",micoplasma,nada,nada,nada,hemoparasito_gato,micro_tubo_lila,nada,nada,3,4-6,24,exclusiva para PCR. En frio y oscuridad.
+gato,p_largo,4,si,"2,9",micoplasma,nada,nada,nada,hemoparasito_gato,micro_tubo_lila,nada,nada,3,4-6,24,exclusiva para PCR. En frio y oscuridad.
+gato,p_largo,9,si,"3,6",micoplasma,nada,nada,nada,hemoparasito_gato,micro_tubo_lila,nada,nada,3,4-6,24,exclusiva para PCR. En frio y oscuridad.
+gato,p_largo,2,si,"4,2",micoplasma,nada,nada,nada,hemoparasito_gato,micro_tubo_lila,nada,nada,3,4-6,24,exclusiva para PCR. En frio y oscuridad.
+gato,p_largo,4,si,"2,7",micoplasma,nada,nada,nada,hemoparasito_gato,micro_tubo_lila,nada,nada,3,4-6,24,exclusiva para PCR. En frio y oscuridad.
+gato,p_largo,10,si,"3,8",micoplasma,nada,nada,nada,hemoparasito_gato,micro_tubo_lila,nada,nada,3,4-6,24,exclusiva para PCR. En frio y oscuridad.
+gato,p_corto,0,no,"0,8",micoplasma,nada,nada,nada,hemoparasito_gato,portaobjetos,nada,nada,3,4-6,24,"Extendido en portaobjetos, secado al aire y a temperatura ambiente."
+gato,p_corto,1,no,"1,5",micoplasma,nada,nada,nada,hemoparasito_gato,portaobjetos,nada,nada,3,4-6,24,"Extendido en portaobjetos, secado al aire y a temperatura ambiente."
+gato,p_corto,2,no,"1,3",micoplasma,nada,nada,nada,hemoparasito_gato,portaobjetos,nada,nada,3,4-6,24,"Extendido en portaobjetos, secado al aire y a temperatura ambiente."
+gato,p_corto,12,no,"5,9",micoplasma,nada,nada,nada,hemoparasito_gato,portaobjetos,nada,nada,3,4-6,24,"Extendido en portaobjetos, secado al aire y a temperatura ambiente."
+gato,p_corto,5,no,"6,3",micoplasma,nada,nada,nada,hemoparasito_gato,portaobjetos,nada,nada,3,4-6,24,"Extendido en portaobjetos, secado al aire y a temperatura ambiente."
+gato,p_corto,6,no,"4,3",micoplasma,nada,nada,nada,hemoparasito_gato,portaobjetos,nada,nada,3,4-6,24,"Extendido en portaobjetos, secado al aire y a temperatura ambiente."
+gato,p_corto,9,no,"6,6",micoplasma,nada,nada,nada,hemoparasito_gato,portaobjetos,nada,nada,3,4-6,24,"Extendido en portaobjetos, secado al aire y a temperatura ambiente."
+gato,p_corto,3,no,"4,2",micoplasma,nada,nada,nada,hemoparasito_gato,portaobjetos,nada,nada,3,4-6,24,"Extendido en portaobjetos, secado al aire y a temperatura ambiente."
+gato,p_corto,14,no,"6,6",micoplasma,nada,nada,nada,hemoparasito_gato,portaobjetos,nada,nada,3,4-6,24,"Extendido en portaobjetos, secado al aire y a temperatura ambiente."
+gato,p_corto,3,no,"3,6",micoplasma,nada,nada,nada,hemoparasito_gato,portaobjetos,nada,nada,3,4-6,24,"Extendido en portaobjetos, secado al aire y a temperatura ambiente."
+gato,p_largo,0,no,"1,1",micoplasma,nada,nada,nada,hemoparasito_gato,portaobjetos,nada,nada,3,4-6,24,"Extendido en portaobjetos, secado al aire y a temperatura ambiente."
+gato,p_largo,1,no,0,micoplasma,nada,nada,nada,hemoparasito_gato,portaobjetos,nada,nada,3,4-6,24,"Extendido en portaobjetos, secado al aire y a temperatura ambiente."
+gato,p_largo,1,no,"0,2",micoplasma,nada,nada,nada,hemoparasito_gato,portaobjetos,nada,nada,3,4-6,24,"Extendido en portaobjetos, secado al aire y a temperatura ambiente."
+gato,p_largo,2,no,"0,7",micoplasma,nada,nada,nada,hemoparasito_gato,portaobjetos,nada,nada,3,4-6,24,"Extendido en portaobjetos, secado al aire y a temperatura ambiente."
+gato,p_largo,0,no,"1,4",micoplasma,nada,nada,nada,hemoparasito_gato,portaobjetos,nada,nada,3,4-6,24,"Extendido en portaobjetos, secado al aire y a temperatura ambiente."
+gato,p_largo,1,no,"2,7",micoplasma,nada,nada,nada,hemoparasito_gato,portaobjetos,nada,nada,3,4-6,24,"Extendido en portaobjetos, secado al aire y a temperatura ambiente."
+gato,p_largo,3,no,4,micoplasma,nada,nada,nada,hemoparasito_gato,portaobjetos,nada,nada,3,4-6,24,"Extendido en portaobjetos, secado al aire y a temperatura ambiente."
+gato,p_largo,6,no,"3,1",micoplasma,nada,nada,nada,hemoparasito_gato,portaobjetos,nada,nada,3,4-6,24,"Extendido en portaobjetos, secado al aire y a temperatura ambiente."
+gato,p_largo,6,no,6,micoplasma,nada,nada,nada,hemoparasito_gato,portaobjetos,nada,nada,3,4-6,24,"Extendido en portaobjetos, secado al aire y a temperatura ambiente."
+gato,p_largo,14,no,"3,8",micoplasma,nada,nada,nada,hemoparasito_gato,portaobjetos,nada,nada,3,4-6,24,"Extendido en portaobjetos, secado al aire y a temperatura ambiente."
+gato,p_largo,8,no,"2,8",micoplasma,nada,nada,nada,hemoparasito_gato,portaobjetos,nada,nada,3,4-6,24,"Extendido en portaobjetos, secado al aire y a temperatura ambiente."
+gato,p_largo,6,no,"5,8",micoplasma,nada,nada,nada,hemoparasito_gato,portaobjetos,nada,nada,3,4-6,24,"Extendido en portaobjetos, secado al aire y a temperatura ambiente."
+perro,mestizo,0,si,1,nada,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,frio y oscuridad
+perro,mestizo,1,si,"0,4",nada,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,frio y oscuridad
+perro,mestizo,0,si,"0,6",nada,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,frio y oscuridad
+perro,mestizo,2,si,"0,7",nada,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,frio y oscuridad
+perro,mestizo,0,si,"0,7",nada,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,frio y oscuridad
+perro,mestizo,9,si,"0,9",nada,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,frio y oscuridad
+perro,mestizo,13,si,"0,9",nada,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,frio y oscuridad
+perro,mestizo,4,si,"0,1",nada,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,frio y oscuridad
+perro,mestizo,3,si,"0,4",nada,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,frio y oscuridad
+perro,mestizo,15,si,"0,3",nada,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,frio y oscuridad
+perro,mestizo,2,si,"0,4",nada,nada,nada,nada,hemograma,micro_tubo_lila,nada,nada,"0,5",4-6,24,frio y oscuridad
+perro,mestizo,2,si,"12,3",nada,nada,nada,nada,hemograma,tubo_lila,nada,nada,"0,5",4-6,24,frio y oscuridad
+perro,mestizo,0,si,8,nada,nada,nada,nada,hemograma,tubo_lila,nada,nada,"0,5",4-6,24,frio y oscuridad
+perro,mestizo,1,si,"14,3",nada,nada,nada,nada,hemograma,tubo_lila,nada,nada,"0,5",4-6,24,frio y oscuridad
+perro,mestizo,0,si,"9,4",nada,nada,nada,nada,hemograma,tubo_lila,nada,nada,"0,5",4-6,24,frio y oscuridad
+perro,mestizo,0,si,"1,5",nada,nada,nada,nada,hemograma,tubo_lila,nada,nada,"0,5",4-6,24,frio y oscuridad
+perro,mestizo,2,si,"1,2",nada,nada,nada,nada,hemograma,tubo_lila,nada,nada,"0,5",4-6,24,frio y oscuridad
+perro,mestizo,10,si,"19,6",nada,nada,nada,nada,hemograma,tubo_lila,nada,nada,"0,5",4-6,24,frio y oscuridad
+perro,mestizo,8,si,"1,3",nada,nada,nada,nada,hemograma,tubo_lila,nada,nada,"0,5",4-6,24,frio y oscuridad
+perro,mestizo,14,si,"10,3",nada,nada,nada,nada,hemograma,tubo_lila,nada,nada,"0,5",4-6,24,frio y oscuridad
+perro,mestizo,5,si,"17,2",nada,nada,nada,nada,hemograma,tubo_lila,nada,nada,"0,5",4-6,24,frio y oscuridad
+perro,mestizo,4,si,"7,5",nada,nada,nada,nada,hemograma,tubo_lila,nada,nada,"0,5",4-6,24,frio y oscuridad
+perro,mestizo,4,si,"7,8",control_sano,falla_hepatica,falla_renal,enfermedades_metabolicas,perfil_bioquimico,tubo_tapa_roja,tubo_tapa_oro,tubo_tapa_verde,3,4-6,24,frio y oscuridad
+perro,mestizo,9,si,"3,2",control_sano,falla_hepatica,falla_renal,enfermedades_metabolicas,perfil_bioquimico,tubo_tapa_roja,tubo_tapa_oro,tubo_tapa_verde,3,4-6,24,frio y oscuridad
+perro,mestizo,8,si,"13,3",control_sano,falla_hepatica,falla_renal,enfermedades_metabolicas,perfil_bioquimico,tubo_tapa_roja,tubo_tapa_oro,tubo_tapa_verde,3,4-6,24,frio y oscuridad
+perro,mestizo,9,si,"2,2",control_sano,falla_hepatica,falla_renal,enfermedades_metabolicas,perfil_bioquimico,tubo_tapa_roja,tubo_tapa_oro,tubo_tapa_verde,3,4-6,24,frio y oscuridad
+perro,mestizo,9,si,"15,5",control_sano,falla_hepatica,falla_renal,enfermedades_metabolicas,perfil_bioquimico,tubo_tapa_roja,tubo_tapa_oro,tubo_tapa_verde,3,4-6,24,frio y oscuridad
+perro,mestizo,15,si,"5,7",control_sano,falla_hepatica,falla_renal,enfermedades_metabolicas,perfil_bioquimico,tubo_tapa_roja,tubo_tapa_oro,tubo_tapa_verde,3,4-6,24,frio y oscuridad
+perro,mestizo,3,si,"13,6",control_sano,falla_hepatica,falla_renal,enfermedades_metabolicas,perfil_bioquimico,tubo_tapa_roja,tubo_tapa_oro,tubo_tapa_verde,3,4-6,24,frio y oscuridad
+perro,mestizo,11,si,"5,5",control_sano,falla_hepatica,falla_renal,enfermedades_metabolicas,perfil_bioquimico,tubo_tapa_roja,tubo_tapa_oro,tubo_tapa_verde,3,4-6,24,frio y oscuridad
+perro,mestizo,10,si,"13,3",control_sano,falla_hepatica,falla_renal,enfermedades_metabolicas,perfil_bioquimico,tubo_tapa_roja,tubo_tapa_oro,tubo_tapa_verde,3,4-6,24,frio y oscuridad
+perro,mestizo,10,si,"2,1",control_sano,falla_hepatica,falla_renal,enfermedades_metabolicas,perfil_bioquimico,tubo_tapa_roja,tubo_tapa_oro,tubo_tapa_verde,3,4-6,24,frio y oscuridad
+perro,mestizo,8,si,"1,2",control_sano,falla_hepatica,falla_renal,enfermedades_metabolicas,perfil_bioquimico,tubo_tapa_roja,tubo_tapa_oro,tubo_tapa_verde,3,4-6,24,frio y oscuridad
+perro,mestizo,1,si,"12,8",anemia_desconocida,mucosa_palida,petequias,nada,hemograma,micro_tubo_lila,nada,nada,3,4-6,24,frio y oscuridad
+perro,mestizo,10,si,"1,6",anemia_desconocida,mucosa_palida,petequias,nada,hemograma,micro_tubo_lila,nada,nada,3,4-6,24,frio y oscuridad
+perro,mestizo,6,si,20,anemia_desconocida,mucosa_palida,petequias,nada,hemograma,micro_tubo_lila,nada,nada,3,4-6,24,frio y oscuridad
+perro,mestizo,11,si,"18,9",anemia_desconocida,mucosa_palida,petequias,nada,hemograma,micro_tubo_lila,nada,nada,3,4-6,24,frio y oscuridad
+perro,mestizo,6,si,"2,4",anemia_desconocida,mucosa_palida,petequias,nada,hemograma,micro_tubo_lila,nada,nada,3,4-6,24,frio y oscuridad
+perro,mestizo,2,si,"1,9",anemia_desconocida,mucosa_palida,petequias,nada,hemograma,micro_tubo_lila,nada,nada,3,4-6,24,frio y oscuridad
+perro,mestizo,7,si,"12,4",anemia_desconocida,mucosa_palida,petequias,nada,hemograma,micro_tubo_lila,nada,nada,3,4-6,24,frio y oscuridad
+perro,mestizo,10,si,7,anemia_desconocida,mucosa_palida,petequias,nada,hemograma,micro_tubo_lila,nada,nada,3,4-6,24,frio y oscuridad
+perro,mestizo,3,si,"16,8",anemia_desconocida,mucosa_palida,petequias,nada,hemograma,micro_tubo_lila,nada,nada,3,4-6,24,frio y oscuridad
+perro,mestizo,9,si,"5,9",anemia_desconocida,mucosa_palida,petequias,nada,hemograma,micro_tubo_lila,nada,nada,3,4-6,24,frio y oscuridad
+perro,mestizo,3,si,"9,4",anemia_desconocida,mucosa_palida,petequias,nada,hemograma,micro_tubo_lila,nada,nada,3,4-6,24,frio y oscuridad
+perro,mestizo,14,si,"11,3",Ehrlichia_canis,nada,nada,nada,hemoparasito_perro,tubo_lila,nada,nada,3,4-6,12,frio y oscuridad
+perro,mestizo,10,si,"2,4",Ehrlichia_canis,nada,nada,nada,hemoparasito_perro,tubo_lila,nada,nada,3,4-6,12,frio y oscuridad
+perro,mestizo,3,si,"8,5",Ehrlichia_canis,nada,nada,nada,hemoparasito_perro,tubo_lila,nada,nada,3,4-6,12,frio y oscuridad
+perro,mestizo,5,si,"10,1",Ehrlichia_canis,nada,nada,nada,hemoparasito_perro,tubo_lila,nada,nada,3,4-6,12,frio y oscuridad
+perro,mestizo,3,si,"12,4",Ehrlichia_canis,nada,nada,nada,hemoparasito_perro,tubo_lila,nada,nada,3,4-6,12,frio y oscuridad
+perro,mestizo,4,si,"10,8",Ehrlichia_canis,nada,nada,nada,hemoparasito_perro,tubo_lila,nada,nada,3,4-6,12,frio y oscuridad
+perro,mestizo,5,si,"11,7",Ehrlichia_canis,nada,nada,nada,hemoparasito_perro,tubo_lila,nada,nada,3,4-6,12,frio y oscuridad
+perro,mestizo,15,si,"1,2",Ehrlichia_canis,nada,nada,nada,hemoparasito_perro,tubo_lila,nada,nada,3,4-6,12,frio y oscuridad
+perro,mestizo,14,si,"4,3",Ehrlichia_canis,nada,nada,nada,hemoparasito_perro,tubo_lila,nada,nada,3,4-6,12,frio y oscuridad
+perro,mestizo,6,si,"9,6",Ehrlichia_canis,nada,nada,nada,hemoparasito_perro,tubo_lila,nada,nada,3,4-6,12,frio y oscuridad
+perro,mestizo,12,si,"11,3",Ehrlichia_canis,nada,nada,nada,hemoparasito_perro,tubo_lila,nada,nada,3,4-6,12,frio y oscuridad
+perro,mestizo,7,si,"7,9",Ehrlichia_canis,nada,nada,nada,hemoparasito_perro,micro_tubo_lila,nada,nada,3,4-6,24,frio y oscuridad
+perro,mestizo,7,si,"1,3",Ehrlichia_canis,nada,nada,nada,hemoparasito_perro,micro_tubo_lila,nada,nada,3,4-6,24,frio y oscuridad
+perro,mestizo,8,si,"5,8",Ehrlichia_canis,nada,nada,nada,hemoparasito_perro,micro_tubo_lila,nada,nada,3,4-6,24,frio y oscuridad
+perro,mestizo,10,si,"6,4",Ehrlichia_canis,nada,nada,nada,hemoparasito_perro,micro_tubo_lila,nada,nada,3,4-6,24,frio y oscuridad
+perro,mestizo,5,si,"2,1",Ehrlichia_canis,nada,nada,nada,hemoparasito_perro,micro_tubo_lila,nada,nada,3,4-6,24,frio y oscuridad
+perro,mestizo,9,si,"5,2",Ehrlichia_canis,nada,nada,nada,hemoparasito_perro,micro_tubo_lila,nada,nada,3,4-6,24,frio y oscuridad
+perro,mestizo,11,si,6,Ehrlichia_canis,nada,nada,nada,hemoparasito_perro,micro_tubo_lila,nada,nada,3,4-6,24,frio y oscuridad
+perro,mestizo,12,si,"6,8",Ehrlichia_canis,nada,nada,nada,hemoparasito_perro,micro_tubo_lila,nada,nada,3,4-6,24,frio y oscuridad
+perro,mestizo,13,si,"5,1",Ehrlichia_canis,nada,nada,nada,hemoparasito_perro,micro_tubo_lila,nada,nada,3,4-6,24,frio y oscuridad
+perro,mestizo,7,si,"2,4",Ehrlichia_canis,nada,nada,nada,hemoparasito_perro,micro_tubo_lila,nada,nada,3,4-6,24,frio y oscuridad
+perro,mestizo,3,si,"6,8",Ehrlichia_canis,nada,nada,nada,hemoparasito_perro,micro_tubo_lila,nada,nada,3,4-6,24,frio y oscuridad
+perro,mestizo,6,si,"11,3",distemper,nada,nada,nada,virus,tubo_tapa_roja,micro_tubo_rojo,nada,3,4-6,24,"frio y oscuridad, proteger de la luz"
+perro,mestizo,8,si,"3,6",distemper,nada,nada,nada,virus,tubo_tapa_roja,micro_tubo_rojo,nada,3,4-6,24,"frio y oscuridad, proteger de la luz"
+perro,mestizo,13,si,"13,6",distemper,nada,nada,nada,virus,tubo_tapa_roja,micro_tubo_rojo,nada,3,4-6,24,"frio y oscuridad, proteger de la luz"
+perro,mestizo,2,si,"13,6",distemper,nada,nada,nada,virus,tubo_tapa_roja,micro_tubo_rojo,nada,3,4-6,24,"frio y oscuridad, proteger de la luz"
+perro,mestizo,2,si,"6,7",distemper,nada,nada,nada,virus,tubo_tapa_roja,micro_tubo_rojo,nada,3,4-6,24,"frio y oscuridad, proteger de la luz"
+perro,mestizo,10,si,"5,3",distemper,nada,nada,nada,virus,tubo_tapa_roja,micro_tubo_rojo,nada,3,4-6,24,"frio y oscuridad, proteger de la luz"
+perro,mestizo,4,si,"5,3",distemper,nada,nada,nada,virus,tubo_tapa_roja,micro_tubo_rojo,nada,3,4-6,24,"frio y oscuridad, proteger de la luz"
+perro,mestizo,11,si,"7,9",distemper,nada,nada,nada,virus,tubo_tapa_roja,micro_tubo_rojo,nada,3,4-6,24,"frio y oscuridad, proteger de la luz"
+perro,mestizo,1,si,"6,6",distemper,nada,nada,nada,virus,tubo_tapa_roja,micro_tubo_rojo,nada,3,4-6,24,"frio y oscuridad, proteger de la luz"
+perro,mestizo,12,si,"8,5",distemper,nada,nada,nada,virus,tubo_tapa_roja,micro_tubo_rojo,nada,3,4-6,24,"frio y oscuridad, proteger de la luz"
+perro,mestizo,3,si,"5,7",distemper,nada,nada,nada,virus,tubo_tapa_roja,micro_tubo_rojo,nada,3,4-6,24,"frio y oscuridad, proteger de la luz"
+perro,mestizo,10,no,"3,2",distemper,nada,nada,nada,virus,tubo_eppendorf,nada,nada,3,4-6,24,"frio y oscuridad, proteger de la luz"
+perro,mestizo,3,no,"7,8",distemper,nada,nada,nada,virus,tubo_eppendorf,nada,nada,3,4-6,24,"frio y oscuridad, proteger de la luz"
+perro,mestizo,5,no,"9,4",distemper,nada,nada,nada,virus,tubo_eppendorf,nada,nada,3,4-6,24,"frio y oscuridad, proteger de la luz"
+perro,mestizo,2,no,"7,7",distemper,nada,nada,nada,virus,tubo_eppendorf,nada,nada,3,4-6,24,"frio y oscuridad, proteger de la luz"
+perro,mestizo,5,no,"7,6",distemper,nada,nada,nada,virus,tubo_eppendorf,nada,nada,3,4-6,24,"frio y oscuridad, proteger de la luz"
+perro,mestizo,11,no,7,distemper,nada,nada,nada,virus,tubo_eppendorf,nada,nada,3,4-6,24,"frio y oscuridad, proteger de la luz"
+perro,mestizo,9,no,"9,6",distemper,nada,nada,nada,virus,tubo_eppendorf,nada,nada,3,4-6,24,"frio y oscuridad, proteger de la luz"
+perro,mestizo,11,no,"2,2",distemper,nada,nada,nada,virus,tubo_eppendorf,nada,nada,3,4-6,24,"frio y oscuridad, proteger de la luz"
+perro,mestizo,9,no,11,distemper,nada,nada,nada,virus,tubo_eppendorf,nada,nada,3,4-6,24,"frio y oscuridad, proteger de la luz"
+perro,mestizo,10,no,"5,5",distemper,nada,nada,nada,virus,tubo_eppendorf,nada,nada,3,4-6,24,"frio y oscuridad, proteger de la luz"
+perro,mestizo,6,no,"2,6",distemper,nada,nada,nada,virus,tubo_eppendorf,nada,nada,3,4-6,24,"frio y oscuridad, proteger de la luz"
+perro,mestizo,4,no,"7,8",parvovirus,nada,nada,nada,virus,tubo_eppendorf,nada,nada,"0,7",4-6,24,"Para hisopato transrectal: humedecer el hisopo con suero fisiologico, luego tomar la muestra vía transrectal, depositar en el tubo y taparlo, frio y oscuridad. Para heces frescas: Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en tubo eppendorf y taparlo, conservandolo en frio y oscuridad."
+perro,mestizo,8,no,"5,3",parvovirus,nada,nada,nada,virus,tubo_eppendorf,nada,nada,"0,7",4-6,24,"Para hisopato transrectal: humedecer el hisopo con suero fisiologico, luego tomar la muestra vía transrectal, depositar en el tubo y taparlo, frio y oscuridad. Para heces frescas: Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en tubo eppendorf y taparlo, conservandolo en frio y oscuridad."
+perro,mestizo,7,no,"2,4",parvovirus,nada,nada,nada,virus,tubo_eppendorf,nada,nada,"0,7",4-6,24,"Para hisopato transrectal: humedecer el hisopo con suero fisiologico, luego tomar la muestra vía transrectal, depositar en el tubo y taparlo, frio y oscuridad. Para heces frescas: Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en tubo eppendorf y taparlo, conservandolo en frio y oscuridad."
+perro,mestizo,12,no,"2,4",parvovirus,nada,nada,nada,virus,tubo_eppendorf,nada,nada,"0,7",4-6,24,"Para hisopato transrectal: humedecer el hisopo con suero fisiologico, luego tomar la muestra vía transrectal, depositar en el tubo y taparlo, frio y oscuridad. Para heces frescas: Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en tubo eppendorf y taparlo, conservandolo en frio y oscuridad."
+perro,mestizo,4,no,"12,2",parvovirus,nada,nada,nada,virus,tubo_eppendorf,nada,nada,"0,7",4-6,24,"Para hisopato transrectal: humedecer el hisopo con suero fisiologico, luego tomar la muestra vía transrectal, depositar en el tubo y taparlo, frio y oscuridad. Para heces frescas: Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en tubo eppendorf y taparlo, conservandolo en frio y oscuridad."
+perro,mestizo,13,no,"9,1",parvovirus,nada,nada,nada,virus,tubo_eppendorf,nada,nada,"0,7",4-6,24,"Para hisopato transrectal: humedecer el hisopo con suero fisiologico, luego tomar la muestra vía transrectal, depositar en el tubo y taparlo, frio y oscuridad. Para heces frescas: Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en tubo eppendorf y taparlo, conservandolo en frio y oscuridad."
+perro,mestizo,11,no,"11,2",parvovirus,nada,nada,nada,virus,tubo_eppendorf,nada,nada,"0,7",4-6,24,"Para hisopato transrectal: humedecer el hisopo con suero fisiologico, luego tomar la muestra vía transrectal, depositar en el tubo y taparlo, frio y oscuridad. Para heces frescas: Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en tubo eppendorf y taparlo, conservandolo en frio y oscuridad."
+perro,mestizo,12,no,"6,2",parvovirus,nada,nada,nada,virus,tubo_eppendorf,nada,nada,"0,7",4-6,24,"Para hisopato transrectal: humedecer el hisopo con suero fisiologico, luego tomar la muestra vía transrectal, depositar en el tubo y taparlo, frio y oscuridad. Para heces frescas: Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en tubo eppendorf y taparlo, conservandolo en frio y oscuridad."
+perro,mestizo,9,no,"2,5",parvovirus,nada,nada,nada,virus,tubo_eppendorf,nada,nada,"0,7",4-6,24,"Para hisopato transrectal: humedecer el hisopo con suero fisiologico, luego tomar la muestra vía transrectal, depositar en el tubo y taparlo, frio y oscuridad. Para heces frescas: Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en tubo eppendorf y taparlo, conservandolo en frio y oscuridad."
+perro,mestizo,3,no,"9,8",parvovirus,nada,nada,nada,virus,tubo_eppendorf,nada,nada,"0,7",4-6,24,"Para hisopato transrectal: humedecer el hisopo con suero fisiologico, luego tomar la muestra vía transrectal, depositar en el tubo y taparlo, frio y oscuridad. Para heces frescas: Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en tubo eppendorf y taparlo, conservandolo en frio y oscuridad."
+perro,mestizo,8,no,"7,5",Diarrea,nada,nada,nada,Coproparasitario,frasco_tapa_roja,nada,nada,"0,5",4-6,8,"Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en frasco y taparlo, conservandolo en frio y oscuridad."
+perro,mestizo,4,no,"9,8",Diarrea,nada,nada,nada,Coproparasitario,frasco_tapa_roja,nada,nada,"0,5",4-6,8,"Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en frasco y taparlo, conservandolo en frio y oscuridad."
+perro,mestizo,8,no,"5,5",Diarrea,nada,nada,nada,Coproparasitario,frasco_tapa_roja,nada,nada,"0,5",4-6,8,"Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en frasco y taparlo, conservandolo en frio y oscuridad."
+perro,mestizo,3,no,"9,3",Diarrea,nada,nada,nada,Coproparasitario,frasco_tapa_roja,nada,nada,"0,5",4-6,8,"Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en frasco y taparlo, conservandolo en frio y oscuridad."
+perro,mestizo,9,no,"3,2",Diarrea,nada,nada,nada,Coproparasitario,frasco_tapa_roja,nada,nada,"0,5",4-6,8,"Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en frasco y taparlo, conservandolo en frio y oscuridad."
+perro,mestizo,9,no,"2,3",Diarrea,nada,nada,nada,Coproparasitario,frasco_tapa_roja,nada,nada,"0,5",4-6,8,"Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en frasco y taparlo, conservandolo en frio y oscuridad."
+perro,mestizo,9,no,"6,2",Diarrea,nada,nada,nada,Coproparasitario,frasco_tapa_roja,nada,nada,"0,5",4-6,8,"Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en frasco y taparlo, conservandolo en frio y oscuridad."
+perro,mestizo,9,no,"9,8",Diarrea,nada,nada,nada,Coproparasitario,frasco_tapa_roja,nada,nada,"0,5",4-6,8,"Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en frasco y taparlo, conservandolo en frio y oscuridad."
+perro,mestizo,14,no,"12,5",Diarrea,nada,nada,nada,Coproparasitario,frasco_tapa_roja,nada,nada,"0,5",4-6,8,"Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en frasco y taparlo, conservandolo en frio y oscuridad."
+perro,mestizo,1,no,"12,4",Diarrea,nada,nada,nada,Coproparasitario,frasco_tapa_roja,nada,nada,"0,5",4-6,8,"Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en frasco y taparlo, conservandolo en frio y oscuridad."
+gato,p_corto,5,no,2,Diarrea,parasitos,nada,nada,Coproparasitario,frasco_tapa_roja,nada,nada,"0,5",4-6,8,"Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en frasco y taparlo, conservandolo en frio y oscuridad."
+gato,p_corto,8,no,"10,3",Diarrea,parasitos,nada,nada,Coproparasitario,frasco_tapa_roja,nada,nada,"0,5",4-6,8,"Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en frasco y taparlo, conservandolo en frio y oscuridad."
+gato,p_corto,11,no,"8,3",Diarrea,parasitos,nada,nada,Coproparasitario,frasco_tapa_roja,nada,nada,"0,5",4-6,8,"Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en frasco y taparlo, conservandolo en frio y oscuridad."
+gato,p_corto,14,no,13,Diarrea,parasitos,nada,nada,Coproparasitario,frasco_tapa_roja,nada,nada,"0,5",4-6,8,"Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en frasco y taparlo, conservandolo en frio y oscuridad."
+gato,p_corto,14,no,12,Diarrea,parasitos,nada,nada,Coproparasitario,frasco_tapa_roja,nada,nada,"0,5",4-6,8,"Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en frasco y taparlo, conservandolo en frio y oscuridad."
+gato,p_largo,5,no,"11,4",Diarrea,parasitos,nada,nada,Coproparasitario,frasco_tapa_roja,nada,nada,"0,5",4-6,8,"Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en frasco y taparlo, conservandolo en frio y oscuridad."
+gato,p_largo,5,no,4,Diarrea,parasitos,nada,nada,Coproparasitario,frasco_tapa_roja,nada,nada,"0,5",4-6,8,"Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en frasco y taparlo, conservandolo en frio y oscuridad."
+gato,p_largo,8,no,"12,6",Diarrea,parasitos,nada,nada,Coproparasitario,frasco_tapa_roja,nada,nada,"0,5",4-6,8,"Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en frasco y taparlo, conservandolo en frio y oscuridad."
+gato,p_largo,7,no,"8,5",Diarrea,parasitos,nada,nada,Coproparasitario,frasco_tapa_roja,nada,nada,"0,5",4-6,8,"Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en frasco y taparlo, conservandolo en frio y oscuridad."
+gato,p_largo,7,no,"7,7",Diarrea,parasitos,nada,nada,Coproparasitario,frasco_tapa_roja,nada,nada,"0,5",4-6,8,"Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en frasco y taparlo, conservandolo en frio y oscuridad."
+perro,mestizo,14,no,"13,3",Giardia,diarrea,lombrices,nada,coproparasito_canino,frasco_tapa_roja,nada,nada,3,4-6,24,"Para hisopato transrectal: humedecer el hisopo con suero fisiologico, luego tomar la muestra vía transrectal, depositar en el tubo y taparlo, frio y oscuridad. Para heces frescas: Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en tubo eppendorf y taparlo, conservandolo en frio y oscuridad."
+perro,mestizo,11,no,"11,4",Giardia,diarrea,lombrices,nada,coproparasito_canino,frasco_tapa_roja,nada,nada,3,4-6,24,"Para hisopato transrectal: humedecer el hisopo con suero fisiologico, luego tomar la muestra vía transrectal, depositar en el tubo y taparlo, frio y oscuridad. Para heces frescas: Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en tubo eppendorf y taparlo, conservandolo en frio y oscuridad."
+perro,mestizo,2,no,"10,9",Giardia,diarrea,lombrices,nada,coproparasito_canino,frasco_tapa_roja,nada,nada,3,4-6,24,"Para hisopato transrectal: humedecer el hisopo con suero fisiologico, luego tomar la muestra vía transrectal, depositar en el tubo y taparlo, frio y oscuridad. Para heces frescas: Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en tubo eppendorf y taparlo, conservandolo en frio y oscuridad."
+perro,mestizo,3,no,1,Giardia,diarrea,lombrices,nada,coproparasito_canino,frasco_tapa_roja,nada,nada,3,4-6,24,"Para hisopato transrectal: humedecer el hisopo con suero fisiologico, luego tomar la muestra vía transrectal, depositar en el tubo y taparlo, frio y oscuridad. Para heces frescas: Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en tubo eppendorf y taparlo, conservandolo en frio y oscuridad."
+perro,mestizo,9,no,"3,4",Giardia,diarrea,lombrices,nada,coproparasito_canino,frasco_tapa_roja,nada,nada,3,4-6,24,"Para hisopato transrectal: humedecer el hisopo con suero fisiologico, luego tomar la muestra vía transrectal, depositar en el tubo y taparlo, frio y oscuridad. Para heces frescas: Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en tubo eppendorf y taparlo, conservandolo en frio y oscuridad."
+perro,mestizo,9,no,"11,1",Giardia,diarrea,lombrices,nada,coproparasito_canino,frasco_tapa_roja,nada,nada,3,4-6,24,"Para hisopato transrectal: humedecer el hisopo con suero fisiologico, luego tomar la muestra vía transrectal, depositar en el tubo y taparlo, frio y oscuridad. Para heces frescas: Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en tubo eppendorf y taparlo, conservandolo en frio y oscuridad."
+perro,mestizo,2,no,"3,7",Giardia,diarrea,lombrices,nada,coproparasito_canino,frasco_tapa_roja,nada,nada,3,4-6,24,"Para hisopato transrectal: humedecer el hisopo con suero fisiologico, luego tomar la muestra vía transrectal, depositar en el tubo y taparlo, frio y oscuridad. Para heces frescas: Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en tubo eppendorf y taparlo, conservandolo en frio y oscuridad."
+perro,mestizo,2,no,14,Giardia,diarrea,lombrices,nada,coproparasito_canino,frasco_tapa_roja,nada,nada,3,4-6,24,"Para hisopato transrectal: humedecer el hisopo con suero fisiologico, luego tomar la muestra vía transrectal, depositar en el tubo y taparlo, frio y oscuridad. Para heces frescas: Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en tubo eppendorf y taparlo, conservandolo en frio y oscuridad."
+perro,mestizo,11,no,"8,4",Giardia,diarrea,lombrices,nada,coproparasito_canino,frasco_tapa_roja,nada,nada,3,4-6,24,"Para hisopato transrectal: humedecer el hisopo con suero fisiologico, luego tomar la muestra vía transrectal, depositar en el tubo y taparlo, frio y oscuridad. Para heces frescas: Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en tubo eppendorf y taparlo, conservandolo en frio y oscuridad."
+perro,mestizo,11,no,"11,4",Giardia,diarrea,lombrices,nada,coproparasito_canino,frasco_tapa_roja,nada,nada,3,4-6,24,"Para hisopato transrectal: humedecer el hisopo con suero fisiologico, luego tomar la muestra vía transrectal, depositar en el tubo y taparlo, frio y oscuridad. Para heces frescas: Recoger heces que no hayan entrado en contacto con el suelo u otras superficies, colocar en tubo eppendorf y taparlo, conservandolo en frio y oscuridad."
