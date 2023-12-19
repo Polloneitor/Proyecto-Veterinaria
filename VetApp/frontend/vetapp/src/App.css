@@ -1,0 +1,82 @@
+body {
+  display: flex;
+  align-items: center;
+  background-color: #F0E68C; /* Celeste claro */
+  justify-content: center;
+  height: 80vh;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%; /* Esto hace que la imagen tenga forma de círculo */
+  padding-left: 2%;
+}
+
+
+
+.form-container {
+  border: 2px solid #8a8a8a;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+}
+
+.form-container form {
+  margin-top: 20px;
+}
+
+.form-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+h1 {
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form-container label {
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.modal-header {
+  background-color: #F0E68C; /* Celeste claro */
+}
+.modal-body {
+}
+
+.modal-footer {
+  background-color: #F0E68C; /* Celeste claro */
+}
+
+/* Estilos para el contenido de la lista dentro del modal */
+.modal-body ul {
+  list-style-type: square; /* Cambia el estilo del marcador de la lista (puedes ajustarlo según tus preferencias) */
+  margin-left: 20px; /* Ajusta el margen izquierdo de la lista */
+}
+
+/* Estilos para cada ítem de la lista dentro del modal */
+.modal-body li {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  margin-bottom: 8px; /* Ajusta el espacio entre elementos de la lista */
+  /* Otros estilos según sea necesario */
+}
