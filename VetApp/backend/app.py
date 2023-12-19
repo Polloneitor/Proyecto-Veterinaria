@@ -9,15 +9,15 @@ from flask_cors import CORS  # Importa la extensión CORS
 app = Flask(__name__)
 CORS(app)
 
-csv=pd.read_csv('C:/Users/nexxl/OneDrive/Desktop/PROYECTO INGENIERIA/Models/muestras normalizadas.csv')
+csv=pd.read_csv('C:/Users/daagu/Desktop/Proyecto Veterinaria/VetApp/backend/Models/Dataset/muestras normalizadas.csv')
 
-Rec1_cnn = load_model('C:/Users/nexxl/OneDrive/Desktop/PROYECTO INGENIERIA/Models/Recipiente1.h5')
-Rec2_cnn = load_model('C:/Users/nexxl/OneDrive/Desktop/PROYECTO INGENIERIA/Models/Recipiente2.h5')
-Rec3_cnn = load_model('C:/Users/nexxl/OneDrive/Desktop/PROYECTO INGENIERIA/Models/Recipiente3.h5')
-Cant_cnn = load_model('C:/Users/nexxl/OneDrive/Desktop/PROYECTO INGENIERIA/Models/Cantidad.h5')
-Temp_cnn = load_model('C:/Users/nexxl/OneDrive/Desktop/PROYECTO INGENIERIA/Models/Temperatura.h5')
-Time_cnn = load_model('C:/Users/nexxl/OneDrive/Desktop/PROYECTO INGENIERIA/Models/Tiempo.h5')
-Cond_cnn = load_model('C:/Users/nexxl/OneDrive/Desktop/PROYECTO INGENIERIA/Models/Condiciones.h5')
+Rec1_cnn = load_model('C:/Users/daagu/Desktop/Proyecto Veterinaria/VetApp/backend\Models/Recipiente1.h5')
+Rec2_cnn = load_model('C:/Users/daagu/Desktop/Proyecto Veterinaria/VetApp/backend\Models/Recipiente2.h5')
+Rec3_cnn = load_model('C:/Users/daagu/Desktop/Proyecto Veterinaria/VetApp/backend\Models/Recipiente3.h5')
+Cant_cnn = load_model('C:/Users/daagu/Desktop/Proyecto Veterinaria/VetApp/backend\Models/Cantidad.h5')
+Temp_cnn = load_model('C:/Users/daagu/Desktop/Proyecto Veterinaria/VetApp/backend\Models/Temperatura.h5')
+Time_cnn = load_model('C:/Users/daagu/Desktop/Proyecto Veterinaria/VetApp/backend\Models/Tiempo.h5')
+Cond_cnn = load_model('C:/Users/daagu/Desktop/Proyecto Veterinaria/VetApp/backend\Models/Condiciones.h5')
 
 @app.route('/upload', methods=['POST'])
 def upload():
