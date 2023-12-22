@@ -280,7 +280,6 @@ function App() {
                     onChange={handleInputChange}
                     className="form-control"
                   >
-                    <option value="nada">Nada</option>
                     {opciones.enfermedad1 && opciones.enfermedad1.map((opcion) => (
                       <option key={opcion} value={opcion}>
                         {opcion}
@@ -301,7 +300,6 @@ function App() {
                         onChange={handleInputChange}
                         className="form-control"
                       >
-                        <option value="nada">Nada</option>
                         {opciones.enfermedad2 && opciones.enfermedad2.map((opcion) => (
                           <option key={opcion} value={opcion}>
                             {opcion}
@@ -324,7 +322,6 @@ function App() {
                       onChange={handleInputChange}
                       className="form-control"
                     >
-                      <option value="nada">Nada</option>
                       {opciones.enfermedad3 && opciones.enfermedad3.map((opcion) => (
                         <option key={opcion} value={opcion}>
                           {opcion}
@@ -345,7 +342,6 @@ function App() {
                         onChange={handleInputChange}
                         className="form-control"
                       >
-                        <option value="nada">Nada</option>
                         {opciones.enfermedad4 && opciones.enfermedad4.map((opcion) => (
                           <option key={opcion} value={opcion}>
                             {opcion}

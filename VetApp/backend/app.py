@@ -5,10 +5,18 @@ import numpy as np
 from PIL import Image
 from flask_cors import CORS  # Importa la extensión CORS
 
-def unicos(Columna):
+def unicos(Columna,nombrecol):
     planar=np.ravel(Columna)
     arreglo=np.unique(planar)
-    print(arreglo)
+    #print(arreglo)
+    arreglo = np.delete(arreglo, np.where(arreglo == 'nada'))
+    #print(arreglo)
+    arreglo = np.sort(arreglo)
+    #print(arreglo)
+    #print(nombrecol)
+    if(nombrecol not in ['raza','tipomuestra']):
+        arreglo = np.insert(arreglo, 0, 'nada', axis=0)
+        
     return arreglo.tolist()
 
 app = Flask(__name__)
@@ -35,7 +43,7 @@ def upload():
                 data = [data]
 
             arreglo = data
-            print("Datos de entrada:", arreglo)
+            #print("Datos de entrada:", arreglo)
 
             xi=[0,0,0,0,0,0,0,0,0,0]
             for i in range(0,10):
@@ -48,55 +56,55 @@ def upload():
                 for indice,valor in enumerate(xi[numero]):
 
                     if(i==valor):
-                        print(i)
+                        #print(i)
                         input.append(indice)
             entrada=[]
             entrada.append(input)
-            print(entrada)
+            #print(entrada)
     
             # Predicción de Recipiente1:
             rec1 = Rec1_cnn.predict(entrada)
-            print(rec1)
+            #print(rec1)
             recipiente1 = np.argmax(rec1)
-            print(recipiente1)
+            #print(recipiente1)
 
             # Predicción de Recipiente2:
             rec2 = Rec2_cnn.predict(entrada)
-            print(rec2)
+            #print(rec2)
             recipiente2 = np.argmax(rec2)
-            print(recipiente2)
+            #print(recipiente2)
 
             # Predicción de Recipiente3:
             rec3 = Rec3_cnn.predict(entrada)
             recipiente3 = np.argmax(rec3)
-            print(recipiente3)
+            #print(recipiente3)
 
             # Predicción de Cantidad:
 
             cant = Cant_cnn.predict(entrada)
             cantidad = np.argmax(cant)
-            print(cantidad)
+            #print(cantidad)
 
             # Predicción de Temperatura:
 
             temp = Temp_cnn.predict(entrada)
             temperatura = np.argmax(temp)
-            print(temperatura)
+            #print(temperatura)
 
             # Predicción de Tiempo:
 
             tmp = Time_cnn.predict(entrada)
             tiempo = np.argmax(tmp)
-            print(tiempo)
+            #print(tiempo)
 
             # Predicción de Condiciones:
             
             cond = Cond_cnn.predict(entrada)
             condiciones = np.argmax(cond)
-            print(condiciones)
+            #print(condiciones)
 
 
-            print(recipiente1,recipiente2,recipiente3,cantidad,temperatura,tiempo,condiciones)
+            #print(recipiente1,recipiente2,recipiente3,cantidad,temperatura,tiempo,condiciones)
 
 
 
@@ -104,20 +112,20 @@ def upload():
             aux=np.ravel(tubox)
             tubo=np.unique(aux)
             recipiente1 = tubo[recipiente1]
-            print(recipiente1)
+            #print(recipiente1)
 
 
             tubo2 =csv.iloc[:,11]
             aux2=np.ravel(tubo2)
             tubo2=np.unique(aux2)
             recipiente2 = tubo2[recipiente2]
-            print(recipiente2)
+            #print(recipiente2)
 
             tubo3 =csv.iloc[:,12]
             aux3=np.ravel(tubo3)
             tubo3=np.unique(aux3)
             recipiente3 = tubo3[recipiente3]
-            print(recipiente3)
+            #print(recipiente3)
 
 
             cantidadx=csv.iloc[:,13]
@@ -129,7 +137,7 @@ def upload():
             cant=cantidadaux
             cant=[float(elemento) for elemento in cant]
             cantidad = cant[cantidad]
-            print(cantidad)
+            #print(cantidad)
 
 
             
@@ -137,7 +145,7 @@ def upload():
             aux4=np.ravel(temp)
             temp=np.unique(aux4)
             temperatura = temp[temperatura]
-            print(temperatura)
+            #print(temperatura)
 
 
             
@@ -145,17 +153,17 @@ def upload():
             aux5=np.ravel(time)
             time=np.unique(aux5)
             tiempo = time[tiempo]
-            print(tiempo)
+            #print(tiempo)
 
 
             condic =csv.iloc[:,16]
             aux6=np.ravel(condic)
             condic=np.unique(aux6)
             condiciones = condic[condiciones]
-            print(condiciones)
+            #print(condiciones)
 
 
-            print(recipiente1,recipiente2,recipiente3,cantidad,temperatura,tiempo,condiciones)
+            #print(recipiente1,recipiente2,recipiente3,cantidad,temperatura,tiempo,condiciones)
 
 
             respuesta = {
@@ -168,7 +176,7 @@ def upload():
                     "tiempo": int(tiempo),
                     "condiciones": condiciones
             }
-            print({recipiente1,recipiente2,recipiente3,cantidad,temperatura,tiempo,condiciones})            
+            #print({recipiente1,recipiente2,recipiente3,cantidad,temperatura,tiempo,condiciones})            
             return respuesta
 
 
@@ -182,12 +190,12 @@ def get():
     if request.method == 'GET':
         try:
             
-            raza = unicos(csv.iloc[:,1])
-            enfermedad1 = unicos(csv.iloc[:,5])
-            enfermedad2 = unicos(csv.iloc[:,6])
-            enfermedad3 = unicos(csv.iloc[:,7])
-            enfermedad4 = unicos(csv.iloc[:,8])
-            tipo_muestra = unicos(csv.iloc[:,9])
+            raza = unicos(csv.iloc[:,1],'raza')
+            enfermedad1 = unicos(csv.iloc[:,5],'enfermedad1')
+            enfermedad2 = unicos(csv.iloc[:,6],'enfermedad2')
+            enfermedad3 = unicos(csv.iloc[:,7],'enfermedad3')
+            enfermedad4 = unicos(csv.iloc[:,8],'enfermedad4')
+            tipo_muestra = unicos(csv.iloc[:,9],'tipomuestra')
             
             respuesta = {
                 "razas"  : raza,
