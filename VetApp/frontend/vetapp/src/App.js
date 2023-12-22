@@ -1,24 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
-const opcionesRaza = ['p_largo', 'p_corto', 'mestizo'];
-const opcionesEnfermedad1 = [
-  'Diarrea', 'Ehrlichia_canis', 'Giardia', 'anemia', 'anemia_desconocida',
-  'anemia_hemolitica', 'control_sano', 'distemper', 'enfermedad_renal',
-  'hemoparasitos', 'leucemia', 'micoplasma', 'nada', 'parvovirus', 'sida',
-  'sospecha_leucemia', 'sospecha_sida'
-];
-const opcionesEnfermedad2 = ['diarrea', 'falla_hepatica', 'leucemia', 'mucosa_palida', 'nada', 'parasitos'];
-const opcionesEnfermedad3 = ['falla_renal', 'lombrices', 'nada', 'petequias'];
-const opcionesEnfermedad4 = ['enfermedades_metabolicas', 'nada'];
-const opcionesTipoMuestra = [
-  'Coproparasitario', 'coproparasito_canino', 'hemograma', 'hemoparasito_gato',
-  'hemoparasito_perro', 'perfil_bioquimico', 'sdma', 'urianalisis', 'virus'
-];
+
 
 function App() {
   const [selectedAnimal, setSelectedAnimal] = useState(null);
@@ -36,6 +23,26 @@ function App() {
     tipoMuestra: '',
   });
   const [datosGuardados, setDatosGuardados] = useState([]);
+  const [opciones, setOpciones] = useState({
+    razas: [],
+    enfermedad1: [],
+    enfermedad2: [],
+    enfermedad3: [],
+    enfermedad4: [],
+    tipoMuestra: [],
+  });
+
+  useEffect(() => {
+    // Hacer la solicitud GET al backend para obtener las opciones
+    axios.get('http://localhost:5000/get')
+      .then(response => {
+        setOpciones(response.data);
+        console.log('Opciones actualizadas:', response.data);
+      })
+      .catch(error => {
+        console.error('Error al obtener opciones desde el servidor:', error);
+      });
+  }, []);
 
   const handleAnimalSelect = (animal) => {
     setSelectedAnimal(animal);
@@ -44,10 +51,9 @@ function App() {
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     let newValue;
-
     switch (name) {
       case 'raza':
-        newValue = opcionesRaza.includes(value) ? value : '';
+        newValue = opciones.razas.includes(value) ? value : '';
         break;
       case 'edad':
         newValue = value >= 0 && value <= 20 ? parseInt(value, 10) : 0;
@@ -55,23 +61,58 @@ function App() {
       case 'ayuno':
         newValue = ['si', 'no'].includes(value.toLowerCase()) ? value.toLowerCase() : 'si';
         break;
-      case 'peso':
-        newValue = value >= 0.1 && value <= 20 ? parseFloat(value) : 0;
-        break;
       case 'enfermedad1':
-        newValue = opcionesEnfermedad1.includes(value) ? value : 'nada';
+        newValue = opciones.enfermedad1.includes(value) ? value : 'nada';
+        if (newValue === 'nada') {
+          setFormData({
+            ...formData,
+            ['enfermedad1']: 'nada',
+            ['enfermedad2']: 'nada',
+            ['enfermedad3']: 'nada',
+            ['enfermedad4']: 'nada'
+
+          });
+          return;
+        }
         break;
       case 'enfermedad2':
-        newValue = opcionesEnfermedad2.includes(value) ? value : 'nada';
+        newValue = opciones.enfermedad2.includes(value) ? value : 'nada';
+        if (newValue === 'nada') {
+          setFormData({
+            ...formData,
+            ['enfermedad2']: 'nada',
+            ['enfermedad3']: 'nada',
+            ['enfermedad4']: 'nada'
+
+          });
+          return;
+        }
         break;
       case 'enfermedad3':
-        newValue = opcionesEnfermedad3.includes(value) ? value : 'nada';
+        newValue = opciones.enfermedad3.includes(value) ? value : 'nada';
+        if (newValue === 'nada') {
+          setFormData({
+            ...formData,
+            ['enfermedad3']: 'nada',
+            ['enfermedad4']: 'nada'
+
+          });
+          return;
+        }
         break;
       case 'enfermedad4':
-        newValue = opcionesEnfermedad4.includes(value) ? value : 'nada';
+        newValue = opciones.enfermedad4.includes(value) ? value : 'nada';
+        if (newValue === 'nada') {
+          setFormData({
+            ...formData,
+            ['enfermedad4']: 'nada'
+
+          });
+          return;
+        }
         break;
       case 'tipoMuestra':
-        newValue = opcionesTipoMuestra.includes(value) ? value : '';
+        newValue = opciones.tipoMuestra.includes(value) ? value : '';
         break;
       default:
         newValue = value;
@@ -101,13 +142,11 @@ function App() {
       formData.edad >= 0 &&
       formData.edad <= 20 &&
       ['si', 'no'].includes(formData.ayuno) &&
-      formData.peso >= 0.1 &&
-      formData.peso <= 20 &&
-      opcionesEnfermedad1.includes(formData.enfermedad1) &&
-      opcionesEnfermedad2.includes(formData.enfermedad2) &&
-      opcionesEnfermedad3.includes(formData.enfermedad3) &&
-      opcionesEnfermedad4.includes(formData.enfermedad4) &&
-      opcionesTipoMuestra.includes(formData.tipoMuestra)
+      opciones.enfermedad1.includes(formData.enfermedad1) &&
+      opciones.enfermedad2.includes(formData.enfermedad2) &&
+      opciones.enfermedad3.includes(formData.enfermedad3) &&
+      opciones.enfermedad4.includes(formData.enfermedad4) &&
+      opciones.tipoMuestra.includes(formData.tipoMuestra)
     ) {
       const nuevoDato = [
         selectedAnimal,
@@ -137,7 +176,7 @@ function App() {
       });
 
       try {
-        const response = await axios.post('http://localhost:5000/upload', {
+        const response = await axios.post('http://localhost:5000/upla', {
           data: nuevoDato,
         });
         console.log('Respuesta del servidor:', response.data);
@@ -184,7 +223,7 @@ function App() {
                     className="form-control"
                   >
                     <option value="">Selecciona una opción</option>
-                    {opcionesRaza.map((opcion) => (
+                    {opciones.razas && opciones.razas.map((opcion) => (
                       <option key={opcion} value={opcion}>
                         {opcion}
                       </option>
@@ -242,7 +281,7 @@ function App() {
                     className="form-control"
                   >
                     <option value="nada">Nada</option>
-                    {opcionesEnfermedad1.map((opcion) => (
+                    {opciones.enfermedad1 && opciones.enfermedad1.map((opcion) => (
                       <option key={opcion} value={opcion}>
                         {opcion}
                       </option>
@@ -250,62 +289,73 @@ function App() {
                   </select>
                 </label>
               </div>
-              <div className="col-md-4">
-                <label>
-                  Enfermedad 2:
-                  <select
-                    name="enfermedad2"
-                    value={formData.enfermedad2}
-                    onChange={handleInputChange}
-                    className="form-control"
-                  >
-                    <option value="nada">Nada</option>
-                    {opcionesEnfermedad2.map((opcion) => (
-                      <option key={opcion} value={opcion}>
-                        {opcion}
-                      </option>
-                    ))}
-                  </select>
-                </label>
-              </div>
+              {
+                formData.enfermedad1 !== 'nada' &&
+                (
+                  <div className="col-md-4">
+                    <label>
+                      Enfermedad 2:
+                      <select
+                        name="enfermedad2"
+                        value={formData.enfermedad2}
+                        onChange={handleInputChange}
+                        className="form-control"
+                      >
+                        <option value="nada">Nada</option>
+                        {opciones.enfermedad2 && opciones.enfermedad2.map((opcion) => (
+                          <option key={opcion} value={opcion}>
+                            {opcion}
+                          </option>
+                        ))}
+                      </select>
+                    </label>
+                  </div>
+                )
+              }
             </div>
             <div className="row">
-              <div className="col-md-4">
-                <label>
-                  Enfermedad 3:
-                  <select
-                    name="enfermedad3"
-                    value={formData.enfermedad3}
-                    onChange={handleInputChange}
-                    className="form-control"
-                  >
-                    <option value="nada">Nada</option>
-                    {opcionesEnfermedad3.map((opcion) => (
-                      <option key={opcion} value={opcion}>
-                        {opcion}
-                      </option>
-                    ))}
-                  </select>
-                </label>
-              </div>
-              <div className="col-md-4">
-                <label>
-                  Enfermedad 4:
-                  <select
-                    name="enfermedad4"
-                    value={formData.enfermedad4}
-                    onChange={handleInputChange}
-                    className="form-control"
-                  >
-                    <option value="nada">Nada</option>
-                    {opcionesEnfermedad4.map((opcion) => (
-                      <option key={opcion} value={opcion}>
-                        {opcion}
-                      </option>
-                    ))}
-                  </select>
-                </label>
-              </div>
+              {formData.enfermedad2 !== 'nada' &&
+                (<div className="col-md-4">
+                  <label>
+                    Enfermedad 3:
+                    <select
+                      name="enfermedad3"
+                      value={formData.enfermedad3}
+                      onChange={handleInputChange}
+                      className="form-control"
+                    >
+                      <option value="nada">Nada</option>
+                      {opciones.enfermedad3 && opciones.enfermedad3.map((opcion) => (
+                        <option key={opcion} value={opcion}>
+                          {opcion}
+                        </option>
+                      ))}
+                    </select>
+                  </label>
+                </div>)
+              }
+              {formData.enfermedad3 !== 'nada' &&
+                (
+                  <div className="col-md-4">
+                    <label>
+                      Enfermedad 4:
+                      <select
+                        name="enfermedad4"
+                        value={formData.enfermedad4}
+                        onChange={handleInputChange}
+                        className="form-control"
+                      >
+                        <option value="nada">Nada</option>
+                        {opciones.enfermedad4 && opciones.enfermedad4.map((opcion) => (
+                          <option key={opcion} value={opcion}>
+                            {opcion}
+                          </option>
+                        ))}
+                      </select>
+                    </label>
+                  </div>
+                )
+              }
               <div className="col-md-4">
                 <label>
                   Tipo de Muestra:
@@ -316,7 +366,7 @@ function App() {
                     className="form-control"
                   >
                     <option value="">Selecciona una opción</option>
-                    {opcionesTipoMuestra.map((opcion) => (
+                    {opciones.tipoMuestra && opciones.tipoMuestra.map((opcion) => (
                       <option key={opcion} value={opcion}>
                         {opcion}
                       </option>
@@ -348,16 +398,36 @@ function App() {
             <Modal.Title>Instrucciones</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <ul>
-              <li>Recipiente 1: {respuesta.recipiente1}</li>
-              
-              <li>Recipiente 2: {respuesta.recipiente2}</li>
-              <li>Recipiente 3: {respuesta.recipiente3}</li>
-              <li>Cantidad: {respuesta.cantidad}</li>
-              <li>Temperatura: {respuesta.temperatura}</li>
-              <li>Tiempo: {respuesta.tiempo}</li>
-              <li>Condiciones: {respuesta.condiciones}</li>
-            </ul>
+            {respuesta.recipiente2 !== 'nada' && (
+              <p>
+                El recipiente indicado para guardar la muestra es {respuesta.recipiente1},
+                en caso de no contar con él, puede utilizar {respuesta.recipiente2} o bien {respuesta.recipiente3}.
+              </p>
+            )}
+            {respuesta.recipiente3 !== 'nada' && (
+              <p>
+                El recipiente indicado para guardar la muestra es {respuesta.recipiente1},
+                en caso de no contar con él, puede utilizar {respuesta.recipiente2} o bien {respuesta.recipiente3}.
+              </p>
+            )}
+
+            {respuesta.recipiente2 === 'nada' && respuesta.recipiente3 === 'nada' && (
+              <p>
+                El recipiente indicado para guardar la muestra es {respuesta.recipiente1}
+              </p>
+            )}
+            {respuesta.cantidad && (
+              <p>Se debe extraer {respuesta.cantidad} ml de muestra.</p>
+            )}
+            {respuesta.temperatura && (
+              <p>Se debe almacenar a una temperatura de {respuesta.temperatura}°C.</p>
+            )}
+            {respuesta.tiempo && (
+              <p>En la siguiente cantidad de tiempo: {respuesta.tiempo}hrs.</p>
+            )}
+            {respuesta.condiciones && (
+              <p>En las siguientes condiciones: {respuesta.condiciones}</p>
+            )}
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={cerrarModal}>
