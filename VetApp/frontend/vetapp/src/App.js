@@ -407,7 +407,7 @@ function App() {
             {respuesta.recipiente3 !== 'nada' && (
               <p>
                 El recipiente indicado para guardar la muestra es {respuesta.recipiente1},
-                en caso de no contar con él, puede utilizar {respuesta.recipiente2} o bien {respuesta.recipiente3}.
+                en caso de no contar con él, puede utilizar {respuesta.recipiente2}.
               </p>
             )}
 
