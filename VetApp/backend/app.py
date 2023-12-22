@@ -19,6 +19,19 @@ def unicos(Columna,nombrecol):
         
     return arreglo.tolist()
 
+def unicosPred(Columna):
+    planar=np.ravel(Columna)
+    arreglo=np.unique(planar)
+
+    return arreglo
+
+def pred(input,modelo):
+
+    pred = modelo.predict(input)
+    #print(pred)
+    prediccion = np.argmax(pred)
+    #print(prediccion)
+    return prediccion
 app = Flask(__name__)
 CORS(app)
 
@@ -63,74 +76,39 @@ def upload():
             #print(entrada)
     
             # Predicción de Recipiente1:
-            rec1 = Rec1_cnn.predict(entrada)
-            #print(rec1)
-            recipiente1 = np.argmax(rec1)
-            #print(recipiente1)
+            recipiente1 = pred(entrada,Rec1_cnn)
 
             # Predicción de Recipiente2:
-            rec2 = Rec2_cnn.predict(entrada)
-            #print(rec2)
-            recipiente2 = np.argmax(rec2)
-            #print(recipiente2)
+            recipiente2 = pred(entrada,Rec2_cnn)
 
             # Predicción de Recipiente3:
-            rec3 = Rec3_cnn.predict(entrada)
-            recipiente3 = np.argmax(rec3)
-            #print(recipiente3)
+            recipiente3 = pred(entrada,Rec3_cnn)
 
             # Predicción de Cantidad:
-
-            cant = Cant_cnn.predict(entrada)
-            cantidad = np.argmax(cant)
-            #print(cantidad)
+            cantidad = pred(entrada,Cant_cnn)
 
             # Predicción de Temperatura:
-
-            temp = Temp_cnn.predict(entrada)
-            temperatura = np.argmax(temp)
-            #print(temperatura)
+            temperatura = pred(entrada,Temp_cnn)
 
             # Predicción de Tiempo:
-
-            tmp = Time_cnn.predict(entrada)
-            tiempo = np.argmax(tmp)
-            #print(tiempo)
+            tiempo = pred(entrada,Time_cnn)
 
             # Predicción de Condiciones:
-            
-            cond = Cond_cnn.predict(entrada)
-            condiciones = np.argmax(cond)
-            #print(condiciones)
-
-
+            condiciones = pred(entrada,Cond_cnn)
             #print(recipiente1,recipiente2,recipiente3,cantidad,temperatura,tiempo,condiciones)
 
-
-
-            tubox =csv.iloc[:,10]
-            aux=np.ravel(tubox)
-            tubo=np.unique(aux)
+            tubo =unicosPred(csv.iloc[:,10])
             recipiente1 = tubo[recipiente1]
             #print(recipiente1)
-
-
-            tubo2 =csv.iloc[:,11]
-            aux2=np.ravel(tubo2)
-            tubo2=np.unique(aux2)
+            tubo2 = unicosPred(csv.iloc[:,11])
             recipiente2 = tubo2[recipiente2]
             #print(recipiente2)
 
-            tubo3 =csv.iloc[:,12]
-            aux3=np.ravel(tubo3)
-            tubo3=np.unique(aux3)
+            tubo3 =unicosPred(csv.iloc[:,12])
             recipiente3 = tubo3[recipiente3]
             #print(recipiente3)
 
-
-            cantidadx=csv.iloc[:,13]
-            aux=np.ravel(cantidadx)
-            cant=np.unique(aux)
+            cant=unicosPred(csv.iloc[:,13])
             cantidadaux=[]
             for i in cant:
                 cantidadaux.append(i.replace(',','.'))
@@ -139,26 +117,15 @@ def upload():
             cantidad = cant[cantidad]
             #print(cantidad)
 
-
-            
-            temp =csv.iloc[:,14]
-            aux4=np.ravel(temp)
-            temp=np.unique(aux4)
+            temp = unicosPred(csv.iloc[:,14])
             temperatura = temp[temperatura]
             #print(temperatura)
 
-
-            
-            time =csv.iloc[:,15]
-            aux5=np.ravel(time)
-            time=np.unique(aux5)
+            time =unicosPred(csv.iloc[:,15])
             tiempo = time[tiempo]
             #print(tiempo)
 
-
-            condic =csv.iloc[:,16]
-            aux6=np.ravel(condic)
-            condic=np.unique(aux6)
+            condic = unicosPred(csv.iloc[:,16])
             condiciones = condic[condiciones]
             #print(condiciones)
 
